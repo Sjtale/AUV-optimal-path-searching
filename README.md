@@ -13,7 +13,7 @@
 
 <img src="assets/DuelingNetwork.svg" alt="Dueling Network" style="width:50%;">
 
-<img src="assets/DuelingNetwork(1).svg" alt="DDQN work flow" style="width:50%;">
+<img src="assets/DuelingNetwork (1).svg" alt="DDQN work flow" style="width:50%;">
 
 训练了 1500 个epoch后收敛，训练结果图如下所示
 
