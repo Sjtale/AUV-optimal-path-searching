@@ -11,3 +11,7 @@
 # Question 1
 使用 DuelingNetwork + DDQN 实现对路径的最优规划，网络流程如下
 ![Dueling Network](assets/DuelingNetwork.svg)
+![DDQN work flow](assets/DuelingNetwork(1).svg)
+训练了 1500 个epoch后收敛，训练结果图如下所示
+![Training result](assets/Simple.png)
+![Training metrics](assets/Simple-metrics.png)
