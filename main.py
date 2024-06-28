@@ -57,14 +57,14 @@ for episode in range(config.episodes):
 
         if steps % config.target_update_frequency == 0:
             agent.update_target_network()
-        if reward == 1972:
-            env.render()
+
     if episode >= 1 and agent.epsilon > agent.epsilon_min:
         agent.epsilon *= agent.epsilon_decay
     
     # if episode and episode % config.visual_frequency == 0:
     #     env.render()
     #     env.visualize_metrics()
+    
     if episode and episode % config.save_freq == 0:
         env.render()
         env.visualize_metrics()
