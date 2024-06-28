@@ -21,3 +21,5 @@
 
 <img src="assets/Simple-metrics.png" alt="Training metrics" style="width:50%;">
 
+# Question 2
+依旧是使用了和 Question 1 类似的网络，但是修改Env 的 reset 函数，每次reset时随机初始化起点和终点，并且在state中添加起点和终点，最终训练的结果演示如下
