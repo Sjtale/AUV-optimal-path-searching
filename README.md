@@ -29,3 +29,7 @@
 # Question 3
 由于本题增加了限制条件“视野范围受限”，所以我们在state中传入agent视野范围（假设为3）内的信息，这里我使用的“是否为障碍物”为信息传入
 最终的训练结果和指标如下图
+
+<img src="assets/33333.png" alt="Training result" style="width:50%;">
+
+<img src="assets/222222.png" alt="Training metrics" style="width:50%;">
