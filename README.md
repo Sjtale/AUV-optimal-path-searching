@@ -24,7 +24,8 @@
 # Question 2
 依旧是使用了和 Question 1 类似的网络，但是修改Env 的 reset 函数，每次reset时随机初始化起点和终点，并且在state中添加起点和终点，最终训练的结果演示如下
 
-<img src="assets/Simple.gif" alt="Training result" style="width:50%;">
+![Example](assets/Simple.gampleif)
+
 
 # Question 3
 由于本题增加了限制条件“视野范围受限”，所以我们在state中传入agent视野范围（假设为3）内的信息，这里我使用的“是否为障碍物”为信息传入
