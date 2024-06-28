@@ -32,4 +32,4 @@
 
 <img src="assets/33333.png" alt="Training result" style="width:50%;">
 
-<img src="assets/222222.png" alt="Training metrics" style="width:50%;">
+<img src="assets/32.png" alt="Training metrics" style="width:50%;">
